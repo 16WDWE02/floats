@@ -1,3 +1,82 @@
 /*body {
 	background-color: #FF0000;
 }*/
+
+nav {
+	width: 960px;
+	height: 200px;
+	background-color: #333333;
+	margin: 0 auto;
+}
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	background-color: red;
+	min-height: 1000px;
+}
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #333333;
+	height: 100px;
+}
+
+#sidebar {
+	width: 150px;
+	background-color: yellow;
+	height: 400px;
+	float: left;
+}
+
+#content {
+	width: 800px;
+	float: right;
+	background-color: blue;
+	padding-bottom: 20px;
+}
+
+#content img {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.left-ad { float: left; }
+.right-ad {	float: right; }
+.left-ad,
+.right-ad {
+	width: 49%;
+}
+
+.product {
+	width: 150px;
+	height: 100px;
+	background-color: orange;
+	float: left;
+	margin-right: 10px;
+}
+
+.products {
+	background-color: pink;
+}
+
+.products:after,
+main:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.small-banner {
+	height: 100px;
+	width: 32%;
+	background-color: green;
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+
+
